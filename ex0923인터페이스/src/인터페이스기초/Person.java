@@ -8,6 +8,6 @@ public class Person {
 	
 	//메소드
 	public void eat() {
-		System.out.println("밥을 먹는다.");
+		System.out.println("수정!");
 	}
 }

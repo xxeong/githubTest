@@ -1,0 +1,8 @@
+package ex0916업캐스팅;
+
+public class Pairi {
+	
+	public void pick() {
+		System.out.println("파이리인형");
+	}
+}

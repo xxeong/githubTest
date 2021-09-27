@@ -1,0 +1,26 @@
+package ex0916업캐스팅;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//인형 뽑기 기계를(Machine) 활용해서 인형을 뽑겠습니다.
+		Machine m = new Machine();
+		
+		//피카츄 인형 뽑기
+		Pika pika = new Pika();
+		
+		m.run(pika);
+		//꼬북이 인형, 파이리 인형을 뽑아주세요!
+		m.run2(pairi);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaPostfixProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaChainProposalCategory\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.util.Random"><rhs name\="java.util.Random"/></lhs><lhs name\="\uAC1D\uCCB4\uAE30\uCD08.Phone"><rhs name\="\uAC1D\uCCB4\uAE30\uCD08.Phone"/></lhs><lhs name\="ex0913\uAC1D\uCCB4\uC9C0\uD5A5.Student"><rhs name\="ex0913\uAC1D\uCCB4\uC9C0\uD5A5.Student"/></lhs><lhs name\="\uD3EC\uCF13\uBAAC\uAC8C\uC784.Pokemon"><rhs name\="\uD3EC\uCF13\uBAAC\uAC8C\uC784.Pokemon"/></lhs><lhs name\="ex0914.pigbank"><rhs name\="ex0914.pigbank"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.RandomAccess"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.ArrayList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="javazoom.jl.player.MP3Player"><rhs name\="javazoom.jl.player.MP3Player"/></lhs><lhs name\="\uBBA4\uC9C1\uD50C\uB808\uC774\uC5B4.Music"><rhs name\="\uBBA4\uC9C1\uD50C\uB808\uC774\uC5B4.Music"/></lhs></history>
+content_assist_number_of_computers=20
+eclipse.preferences.version=1
+markOccurrences=false
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=21
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

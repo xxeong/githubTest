@@ -1,0 +1,39 @@
+package ex0913객체지향;
+
+public class Student {
+	String name = "이름";
+	String number = "학번";
+	int age = 27;
+	int scoreJava = 100;
+	int scoreWeb = 100;
+	int scoreAndroid = 100;
+	
+	public Student(String name, String number, int age, int scoreJava, int scoreWeb, int scoreAndroid) {
+		super();
+		this.name = name;
+		this.number = number;
+		this.age = age;
+		this.scoreJava = scoreJava;
+		this.scoreWeb = scoreWeb;
+		this.scoreAndroid = scoreAndroid;
+	}
+	public void show() {
+		System.out.println(name+"님의 java 점수는 : "+ scoreJava);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

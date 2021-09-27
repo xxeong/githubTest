@@ -1,0 +1,9 @@
+package 상속기초;
+
+public class Child extends Parent {
+	
+	//자식클래스(서브클래스)
+	
+	
+	
+}

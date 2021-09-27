@@ -1,0 +1,23 @@
+package √ﬂªÛ≈¨∑°Ω∫øπ¡¶;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		RegularEmployee r = new RegularEmployee("123", "±Ëº∫±§", 200, 200);
+		
+		System.out.println(r.getMoneyPay());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

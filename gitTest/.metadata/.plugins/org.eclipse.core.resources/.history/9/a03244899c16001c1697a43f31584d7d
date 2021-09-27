@@ -1,0 +1,16 @@
+package 자바페스티벌1차;
+
+import java.util.Scanner;
+
+public class ex23번오름차순정렬 {
+
+	public static void main(String[] args) {
+		//5개의 정수를 입력받아 오름차순 정렬
+		Scanner sc= new Scanner(System.in);
+		for(int i = 1;i<6;i++) {
+			System.out.print(i+"번째 수 입력 : ");
+			int num = sc.nextInt();
+		}
+	}
+
+}

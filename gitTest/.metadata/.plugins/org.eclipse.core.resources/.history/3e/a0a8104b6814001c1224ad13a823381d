@@ -1,0 +1,48 @@
+package 포켓몬게임;
+
+import java.util.Scanner;
+
+public class Main2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		// 1. pokemon설계도를 기반으로 두마리의 서로 다른 포켓몬을 생성!
+		// -꼬부기,물,500,30,물대포
+		// -파이리,불,600,35,불대포
+		Pokemon kkobuk = new Pokemon("꼬부기", "물", 500, 30, "물대포");
+		Pokemon pie = new Pokemon("파이리", "불", 600, 35, "불대포");
+
+		while(kkobuk.gethp()>=0) {System.out.print("[1]" + kkobuk.getName() + "[2]" + pie.getName() + " >>");
+		int num = sc.nextInt();
+		if (num == 1) {
+			System.out.print("[1]일반공격" + "[2]스킬 >>");
+			int hit = sc.nextInt();
+			if (hit == 1) {
+				pie.sethp(pie.gethp() - kkobuk.getAttack());
+				System.out.println("파이리 hp"+(int)pie.gethp());
+				System.out.println("꼬부기 hp"+(int)kkobuk.gethp());
+			} else if (hit == 2) {
+				pie.sethp(pie.gethp() - (kkobuk.getAttack() * 1.5));
+				System.out.println("파이리 hp"+(int)pie.gethp());
+				System.out.println("꼬부기 hp"+(int)kkobuk.gethp());
+			}
+
+		}else if(num==2) {
+			System.out.print("[1]일반공격" + "[2]스킬 >>");
+			int hit = sc.nextInt();
+			if(hit==1) {
+				kkobuk.sethp(kkobuk.gethp()-pie.getAttack());
+				System.out.println("파이리 hp"+(int)pie.gethp());
+				System.out.println("꼬부기 hp"+(int)kkobuk.gethp());
+			}else if(hit==2) {
+				kkobuk.sethp(kkobuk.gethp()-(pie.getAttack()*1.5));
+				System.out.println("파이리 hp"+(int)pie.gethp());
+				System.out.println("꼬부기 hp"+(int)kkobuk.gethp());
+			}
+		}
+		}
+		System.out.println("파이리 hp"+(int)pie.gethp());
+		System.out.println("꼬부기 hp"+(int)kkobuk.gethp());
+	}
+
+}

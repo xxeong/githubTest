@@ -1,0 +1,21 @@
+package ex0916업캐스팅;
+
+public class Banana extends Snack{
+	
+	@Override
+	public void open() {
+		System.out.println("바나나킥을 뜯다.");
+	}
+	
+	private void syso() {
+		// TODO Auto-generated method stub
+
+	
+	
+	
+	
+	
+	
+	
+	
+}

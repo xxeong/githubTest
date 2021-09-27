@@ -1,0 +1,109 @@
+package 뮤직플레이어;
+
+import java.util.Scanner;
+
+import javazoom.jl.player.MP3Player;
+
+public class Musicplayer쌤 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		MP3Player mp3 = new MP3Player();
+		MusicPlayer player = new MusicPlayer();
+		while (true) {
+			System.out.print("[1]재생 [2]정지 [3]이전곡 [4]다음곡 [5]종료 >>");
+			// 1. 사용자로부터 숫자를 입력
+            int input = sc.nextInt();
+			// 2. 입력받은 숫자를 기준으로 총 5가지 로직
+			
+			
+			if (input == 1) {
+				//(1)MusicPlayer클래스 메소드 버전
+				
+				
+				Music music = player.play();
+				System.out.print(music.getSinger()+"/");
+				System.out.println(music.getTitle()+"이 재생중입니다.");
+				//객체를 넘겨받아 출력!
+				
+			} else if (input == 2) {
+				//정지
+				//현재 재생중인 노래를 멈추기
+				player.stop();
+				System.out.println("노래를 정지합니다.");
+			} else if (input == 3) {
+				//이전곡
+				Music music = player.pre();
+				if(music != null) {
+					System.out.println(music.getSinger()+"/");
+					System.out.println(music.getTitle()+"이 재생중입니다.");
+					
+				}
+				else {
+					System.out.println("이전곡이 없습니다.");
+				}
+				
+				//3. 이전곡이 없을 때는 이전곡이 없습니다! 출력
+				// (쎔버전)(이전곡)
+//				if(index>0) {
+//					index--;
+//					if(mp3.isPlaying()) {
+//						mp3.stop();
+//					}if(index<0) {
+//						System.out.println("이전 곡이 없습니다!");
+//						
+//					}else {
+//						mp3.play(list.get(index).getPath());
+//					}
+//				}
+				
+				}
+			else if (input == 4) {
+				
+				Music music = player.next();
+				if(music!= null) {
+					System.out.println(music.getSinger()+"/");
+					System.out.println(music.getTitle()+"이 재생됩니다");
+				}
+				else {
+					System.out.println("다음곡이 없습니다.");
+				}
+				
+				
+				
+				//다음곡
+				//1.현재 재생중인 노래에서 다음곡 재생 시키기!
+				//2. 가수 /노래제목
+				//3. 다음곡이 없을 때는 다음곡이 없습니다! 출력
+				//쌤버전(다음곡)
+//				index++;
+//				if(index<list.size()) {
+//					
+//					if(mp3.isPlaying()) {
+//						mp3.stop();
+//					}
+//					mp3.play(list.get(index).getPath());
+//					System.out.println(list.get(index).getSinger()+"/");
+//					System.out.println(list.get(index).getTitle()+"이 재생중입니다.");
+//				}
+				
+				
+				
+				
+				
+				
+				
+			} else if (input == 5) {
+				System.out.println("종료합니다!");
+				break;
+				
+			} else {
+				System.out.println("잘못된 숫자를 입력하셨습니다.");
+			}
+		}
+		// 3. 사용자가 5라는 숫자를 입력하기 전까지 계속 반복
+		
+	}
+
+}

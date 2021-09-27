@@ -1,0 +1,38 @@
+package ex0914;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		pigbank gum = new pigbank();
+		
+		System.out.print("입금 : ");
+		int input1=sc.nextInt();
+		gum.deposit(input1);
+		System.out.print("입금 : ");
+		int input2=sc.nextInt();
+		gum.deposit(input2);
+		System.out.println("현재 잔액 : "+ gum.getMoney());
+		System.out.println("출금 : ");
+		int output = sc.nextInt();
+		gum.withdraw(output);
+		System.out.println("현재 잔액 : "+ gum.getMoney());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

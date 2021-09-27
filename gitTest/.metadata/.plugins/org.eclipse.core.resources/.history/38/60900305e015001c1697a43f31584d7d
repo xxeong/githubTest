@@ -1,0 +1,31 @@
+package 자바페스티벌1차;
+
+import java.util.Scanner;
+
+public class ex20번10진수입력받고2진수변환 {
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		
+		System.out.println("숫자 입력>>");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

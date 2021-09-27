@@ -1,0 +1,39 @@
+package ex0914;
+
+public class exmoney {
+	
+	private int money;
+	
+	public exmoney(int money) {
+		super();
+		this.money = money;
+	}
+	//돈을 넣는다
+	public void setdeposit(int money) {
+		this.money= money;
+	}
+	//돈을 인출한다
+	public void setwithdraw(int money) {
+		this.money= money;
+	}
+	
+	//잔액을 보여준다
+	public int getMoney() {
+		return money;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

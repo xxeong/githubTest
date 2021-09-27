@@ -1,0 +1,16 @@
+package 객체기초;
+
+public class TvSimulator {
+
+	public static void main(String[] args) {
+		// 객체(object) : 클래스로부터 만들어진 대상
+		// 데이터타입 변수명 = new 데이터타입();
+		// 클래스명 변수명 = new 클래스명();
+		
+		Tv tv1 = new Tv(); // tv 1대가 컴퓨터 메모리에 생성
+		Tv tv2 = new Tv(); // 안방에 놓을 Tv 생성
+		Tv tv3 = new Tv(); // 옥상에 가져다 놓을 Tv 생성
+
+	}
+
+}

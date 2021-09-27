@@ -1,0 +1,28 @@
+package ex0914ArrayList;
+
+import java.util.ArrayList;
+
+public class ArrayList01 {
+
+	public static void main(String[] args) {
+		//int[] 변수명 = new int[크기];
+		//int[] 변수명 = {값넣기};
+		
+		//ArrayList선언
+		ArrayList<String> arrayList = new ArrayList<String>();
+		//arrayList추가
+		arrayList.add("전병만");
+		arrayList.add("김진웅");
+		arrayList.add("정유진");
+		
+		//arrayList 값 가져오기
+		//arrayList[index]==>일반배열
+		System.out.println(arrayList.get(0));
+		
+		
+		
+		
+		
+	}
+
+}

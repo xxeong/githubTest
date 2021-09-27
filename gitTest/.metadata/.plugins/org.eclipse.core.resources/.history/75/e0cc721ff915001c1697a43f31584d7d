@@ -1,0 +1,54 @@
+package 상속기초;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//실행하는 공간
+		//Parent 설계도를 기반으로 p라는 객체생성
+		Parent p = new Parent();
+		
+		
+		
+		//Child설계도를 기반으로 c라는 객체 생성
+		Child c = new Child();
+		
+		//부모가 가진 비빔밥 만드는 기능
+		p.makeBibim();
+		//자식이 가진 비빔밥 만드는 기능
+		// **자식클래스에서 오버라이딩된 메소드를 더 최신의 메소드로 판별하여
+		//   이를 사용한다.
+		c.makeBibim();
+		//자식이 가진 삼겹살 기능
+		c.makeSam();
+		
+		
+		//1. Upcasting
+		// : 자식클래스가 부모클래스로 자동형변환
+		// ****상속이 되어있다는 전제하에
+		// ex)고양이는 동물이다.
+		Parent p1 = new Child();
+//		p1.makeSam(); ---> 사용 불가능
+		p1.makeJang();
+		p1.makeBibim();
+			
+		
+		//Downcasting
+		// : 부모클래스가 자식클래스로 강제형변환
+		// ex)동물은 고양이다. --> 말이안됨
+		Child c1 = (Child) new Parent();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

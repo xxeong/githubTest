@@ -1,0 +1,25 @@
+package ∞¥√º±‚√ ;
+
+public class PersonMain {
+
+	public static void main(String[] args) {
+		
+		Person me = new Person();
+		System.out.println(me.blood);
+		System.out.println(me.height);
+		System.out.println(me.age);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

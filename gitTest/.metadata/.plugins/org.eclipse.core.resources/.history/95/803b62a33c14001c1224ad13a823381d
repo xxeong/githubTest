@@ -1,0 +1,27 @@
+package ex0913°´Ã¼ÁöÇâ;
+
+public class PersonMain2 {
+
+	public static void main(String[] args) {
+		
+		Person2 me = new Person2();
+		System.out.println(me.blood);
+		System.out.println(me.tall);
+		System.out.println(me.age);
+		me.badminton();
+		me.eat();
+		me.hiking();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

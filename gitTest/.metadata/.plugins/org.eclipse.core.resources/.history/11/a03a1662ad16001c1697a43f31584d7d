@@ -1,0 +1,26 @@
+package ex0916업캐스팅;
+
+public class MySnack { //Machine 과 같은 역할
+	
+	//각각의 객체를 넘겨 받으면
+	//해당 하는 객체의 open()
+	//메소드 기능을 수행하도록 만들어 주세요.
+	
+//	Banana banana = new Banana();
+//	Goguma goguma = new Goguma();
+//	Gamja gamja = new Gamja();
+	
+	public void open(Snack snack) {
+		snack.open();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

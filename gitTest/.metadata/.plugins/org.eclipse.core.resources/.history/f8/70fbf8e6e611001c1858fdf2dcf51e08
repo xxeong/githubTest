@@ -1,0 +1,43 @@
+package 메소드기초;
+
+import java.util.Scanner;
+
+public class ex04더큰수반환메소드 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("첫번째 수 > ");
+		int n1 = sc.nextInt();
+		System.out.print("두번째 수 > ");
+		int n2 = sc.nextInt();
+		int result = largernumbers(n1, n2);
+		System.out.println("큰 수 확인 : "+ result);
+		
+		
+		
+		
+	
+	}
+
+	public static int largernumbers(int num1, int num2) {
+		//int result = 0;
+		if(num1>num2) {
+			int result = num1;
+			return result;
+		}else if(num1<num2){
+			int result = num2;
+			return result;
+		}else if(num1==num2){
+			int result = 0;
+			return result;
+		}
+		return num2;
+		
+		
+	}
+	
+	
+	
+	
+	
+}

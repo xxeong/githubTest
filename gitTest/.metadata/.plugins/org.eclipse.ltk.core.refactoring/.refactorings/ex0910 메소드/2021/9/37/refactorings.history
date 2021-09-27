@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;메소드기초.ex03계사긴&apos; to &apos;ex03계산기&apos;&#x0D;&#x0A;- Original project: &apos;ex0910 메소드&apos;&#x0D;&#x0A;- Original element: &apos;메소드기초.ex03계사긴&apos;&#x0D;&#x0A;- Renamed element: &apos;메소드기초.ex03계산기&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ex03계사긴&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;메소드기초{ex03계사긴.java[ex03계사긴" matchStrategy="1" name="ex03계산기" qualified="false" references="true" similarDeclarations="false" stamp="1631240192168" textual="false" version="1.0"/>
+</session>

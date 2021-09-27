@@ -1,0 +1,79 @@
+package 뮤직플레이어;
+
+import java.util.ArrayList;
+
+import javazoom.jl.player.MP3Player;
+
+public class MusicPlayer {
+	// Mp3가 수행할 기능들을 메소드로 뽑아냄
+
+	MP3Player mp3 = new MP3Player();
+	ArrayList<Music> list = new ArrayList<Music>();
+	int index = 0;
+
+	public MusicPlayer() {
+		list.add(new Music("Butterfly", "디지몬", "C:\\Users\\PC\\Desktop\\뮤직플레이어\\Butterfly.mp3"));
+		list.add(new Music("Peaches", "저스틴비버", "C:\\Users\\PC\\Desktop\\뮤직플레이어\\Peaches.mp3"));
+		list.add(new Music("Rollin", "브레이브걸스", "C:\\Users\\PC\\Desktop\\뮤직플레이어\\Rollin.mp3"));
+		list.add(new Music("Blossom", "버스커버스커", "C:\\Users\\PC\\Desktop\\뮤직플레이어\\Blossom.mp3"));
+
+	}
+
+	// 재생
+	public Music play() {
+		// 재생중인 노래가 없다면
+		// 현재 인덱스 번호와 맞는 노래를 재생시켜주세요.
+		// 가수/제목 이 재생중입니다 출력
+		if (!mp3.isPlaying()) {
+			mp3.play(list.get(index).getPath());
+		}
+//		System.out.print(list.get(index).getSinger()+"/");
+//		System.out.println(list.get(index).getTitle()+"이 재생중입니다");
+		return list.get(index);
+	}
+
+	// 다음곡
+	public Music next() {
+		index++;
+		if (index < list.size()) {
+			if (mp3.isPlaying()) {
+				mp3.stop();
+			}
+			mp3.play(list.get(index).getPath());
+			return list.get(index);
+
+		} else {
+			return null;
+		}
+	}
+
+	// 이전곡
+	public Music pre() {
+		index--;
+		if (index >= 0) {
+			if (mp3.isPlaying()) {
+				mp3.stop();
+			}
+			mp3.play(list.get(index).getPath());
+			return list.get(index);
+}
+		 else {
+			return null;
+		}
+	}
+	
+	public void stop() {
+		if(mp3.isPlaying()) {
+			mp3.stop();
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

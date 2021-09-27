@@ -1,0 +1,16 @@
+package 객체기초;
+
+public class Phone {
+	
+	int size = 12;
+	int charge = 100;
+	String number = "01037634118"
+	
+			public void call() {
+				System.out.println("전화를 걸다");
+			}
+	public void soundup() {
+		System.out.println("소리를 키우다");
+	}
+	
+}

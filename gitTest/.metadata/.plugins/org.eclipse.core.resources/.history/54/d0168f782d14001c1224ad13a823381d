@@ -1,0 +1,30 @@
+package ∞¥√º±‚√ ;
+
+public class PhoneMain {
+
+	public static void main(String[] args) {
+		
+		int a = 3;
+		String str = "æ»≥Á«œººø‰";
+		
+		
+		Phone magic = new Phone();
+		System.out.println(magic.charge);
+		System.out.println(magic.number);
+		System.out.println(magic.size);
+		
+		
+		
+		Phone lollipop = new Phone();
+		
+		lollipop.number = '000000';
+		lollipop.size = 15;
+		lollipop.number = 80;
+		System.out.println(lollipop.charge);
+		System.out.println(lollipop.number);
+		System.out.println(lollipop.size);
+		
+		
+	}
+
+}

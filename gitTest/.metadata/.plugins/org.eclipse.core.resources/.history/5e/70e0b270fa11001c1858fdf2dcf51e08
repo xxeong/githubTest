@@ -1,0 +1,10 @@
+package 메소드기초;
+
+public class ex06절대값메소드 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

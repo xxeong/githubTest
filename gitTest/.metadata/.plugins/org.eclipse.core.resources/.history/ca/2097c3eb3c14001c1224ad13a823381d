@@ -1,0 +1,29 @@
+package ex0913객체지향;
+
+public class PersonMain2 {
+
+	public static void main(String[] args) {
+		// 생성자 ->클래스 크기만큼의 공간을 의미해줌
+		Person2 me = new Person2();
+		//디폴트 생성자 --> 단순히 공간만을 할당해줌
+		
+		System.out.println(me.blood);
+		System.out.println(me.tall);
+		System.out.println(me.age);
+		me.badminton();
+		me.eat();
+		me.hiking();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

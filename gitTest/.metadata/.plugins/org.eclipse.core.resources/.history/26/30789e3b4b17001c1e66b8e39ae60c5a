@@ -1,0 +1,10 @@
+package 자바페스티벌1차;
+
+public class ex10번랜덤최대최소 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

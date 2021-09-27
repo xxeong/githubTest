@@ -1,0 +1,10 @@
+package 자바페스티벌1차;
+
+public class ex5번별찍기 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

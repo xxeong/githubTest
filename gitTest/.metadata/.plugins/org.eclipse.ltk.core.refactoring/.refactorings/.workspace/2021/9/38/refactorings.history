@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ex0914 메소드&apos; to &apos;ex0914 객체&apos;" description="Rename resource &apos;ex0914 메소드&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/ex0914 메소드" name="ex0914 객체" stamp="1631580110289" updateReferences="true"/>
+</session>

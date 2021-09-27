@@ -1,0 +1,37 @@
+package ex0914ArrayList;
+
+import java.util.ArrayList;
+
+public class ArrayList01 {
+
+	public static void main(String[] args) {
+		//int[] 변수명 = new int[크기];
+		//int[] 변수명 = {값넣기};
+		
+		//ArrayList선언
+		ArrayList<String> arrayList = new ArrayList<String>();
+		//arrayList추가
+		arrayList.add("전병만");
+		arrayList.add("김진웅");
+		arrayList.add("정유진");
+		
+		//arrayList 값 가져오기
+		//arrayList[index]==>일반배열
+		System.out.println(arrayList.get(0));
+		System.out.println(arrayList.get(1));
+		System.out.println(arrayList.get(2));
+		//팀원들 이름 전부 가져오기(출력)
+		System.out.println(arrayList);
+		//arrayList의 크기 ==>size()
+		for(int i =0; i<arrayList.size();i++) {
+			System.out.println(arrayList.get(i));
+		}
+		//arrayList 삽입 add(인덱스, 내용)
+		arrayList.add(1, "대희");
+		//3번쨰 위치-->오른쪽
+		//5번째 위치-->왼쪽
+		arrayList.add(2, "의자");
+		arrayList.add(4, "승신");		
+	}
+
+}

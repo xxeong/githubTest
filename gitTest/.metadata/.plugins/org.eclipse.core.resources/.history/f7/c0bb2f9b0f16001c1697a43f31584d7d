@@ -1,0 +1,26 @@
+package 보충;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		NoteBook note = new NoteBook();
+		System.out.println(note);//주소값이 들어있는 레퍼런스 변수
+		System.out.println(note.battery);
+		System.out.println(note.color);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

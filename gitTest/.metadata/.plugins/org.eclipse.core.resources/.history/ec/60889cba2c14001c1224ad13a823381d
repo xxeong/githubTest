@@ -1,0 +1,22 @@
+package ∞¥√º±‚√ ;
+
+public class PhoneMain {
+
+	public static void main(String[] args) {
+		
+		int a = 3;
+		String str = "æ»≥Á«œººø‰"
+		
+		
+		Phone magic = new Phone();
+		System.out.println(magic.charge);
+		System.out.println(magic.number);
+		System.out.println(magic.size);
+		
+		
+		
+		
+		
+	}
+
+}

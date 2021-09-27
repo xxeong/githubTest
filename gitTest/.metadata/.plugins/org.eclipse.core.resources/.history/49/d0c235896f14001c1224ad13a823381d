@@ -1,0 +1,49 @@
+package 포켓몬게임;
+
+import java.util.Scanner;
+
+public class 쌤버전Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);//객체
+		
+		Pokemon kkobuk = new Pokemon("꼬부기", "물", 500, 30, "물대포");
+		Pokemon pie = new Pokemon("파이리", "불", 600, 35, "불대포");
+		
+		System.out.print("[1]"+kkobuk.getName()+"[2]"+pie.getName()+" >>");
+		int input = sc.nextInt();
+		if(input == 1) {
+			//꼬부기를 선택했을때
+			System.out.print("[1]일반공격 [2]스킬 >> ");
+			int input2 = sc.nextInt();
+			if(input2==1) {
+				//파이리hp = 파이리hp - 꼬부기attack
+				pie.sethp(pie.gethp()-kkobuk.getAttack());
+				
+			}else if(input2 == 2) {
+				//파이리hp = 파이리hp - 꼬부기attack*1.5
+				int hp =(int)(pie.gethp()-kkobuk.getAttack()*1.5);
+				pie.sethp(hp);
+			}
+		}else if(input == 2) {
+			//파이리를 선택했을때
+			System.out.print("[1]일반공격 [2]스킬 >> ");
+			int input2 = sc.nextInt();
+			if(input2==1) {
+				//꼬부기hp = 꼬부기hp - 파이리attack
+				kkobuk.sethp(kkobuk.gethp()-pie.getAttack());
+				
+			}else if(input2 == 2) {
+				//꼬부기hp = 꼬부기hp - 파이리attack*1.5
+				int hp =(int)(kkobuk.gethp()-pie.getAttack()*1.5);
+				kkobuk.sethp(hp);
+			}
+			
+		}else {
+			System.out.println("숫자를 다시 입력하세요.");
+		}
+		System.out.println(kkobuk.getName()+"의 hp >> "+kkobuk.gethp());
+			System.out.println(pie.getName()+"의 hp >> "+pie.gethp());
+	}
+
+}

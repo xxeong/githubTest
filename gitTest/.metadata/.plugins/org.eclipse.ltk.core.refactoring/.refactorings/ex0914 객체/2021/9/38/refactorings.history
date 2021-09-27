@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ex0914.exmoney&apos; to &apos;pigbank&apos;&#x0D;&#x0A;- Original project: &apos;ex0914 객체&apos;&#x0D;&#x0A;- Original element: &apos;ex0914.exmoney&apos;&#x0D;&#x0A;- Renamed element: &apos;ex0914.pigbank&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;exmoney&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;ex0914{exmoney.java[exmoney" matchStrategy="1" name="pigbank" qualified="false" references="true" similarDeclarations="false" stamp="1631580148741" textual="false" version="1.0"/>
+</session>

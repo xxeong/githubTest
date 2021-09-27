@@ -1,0 +1,37 @@
+package 자바페스티벌1차;
+
+import java.util.Scanner;
+
+public class ex30번알파벳구하기 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("입력해주세요 : ");
+		String insert = sc.next();
+		char[] array = new char[insert.length()];
+		
+		for(int i = 0; i<insert.length();i++) {
+			array[i] = insert.charAt(i);
+			if(array[i]>=65 && array[i]<=90) {//아스키코드 A~Z =>65~90
+				array[i] = (char)(array[i]+32);//소문자 변환
+			}
+		}
+		//a~z 몇번 나왔는지 비교
+		for(int i=97; i<=122;i++) {
+			int count=0;//횟수를 세주기 위한 변수
+			for(int j=0; j<array.length;j++) {
+				if(i==array[i]) {
+					count++;
+				}
+			}System.out.println((char)i+" : "+count);
+		}
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

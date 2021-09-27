@@ -1,0 +1,17 @@
+package 포켓몬게임;
+
+import java.util.Scanner;
+
+public class 쌤버전Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);//객체
+		
+		Pokemon kkobuk = new Pokemon("꼬부기", "물", 500, 30, "물대포");
+		Pokemon pie = new Pokemon("파이리", "불", 600, 35, "불대포");
+		
+		System.out.print("[1]"+kkobuk.getName()+"[2]"+pie.getName()+" >>");
+		
+	}
+
+}

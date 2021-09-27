@@ -1,0 +1,25 @@
+package 자바페스티벌풀어보기;
+
+import java.util.Scanner;
+
+public class exB1번숫자입력출력 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.print("A 입력 >> ");
+		int A = sc.nextInt();
+		System.out.print("B 입력 >> ");
+		int B = sc.nextInt();
+		System.out.println(A-B);
+		//A,B모두 0을 입력받으면 종료
+		
+		
+		
+		
+			
+		}
+	
+
+}

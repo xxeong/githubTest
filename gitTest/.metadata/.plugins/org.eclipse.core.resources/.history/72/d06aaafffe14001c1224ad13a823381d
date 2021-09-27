@@ -1,0 +1,48 @@
+package ex0914;
+
+import java.util.Scanner;
+
+public class ex은행예제 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		pigbank bank = new pigbank();
+		
+		//1.저금 2.인출 3.금액확인 4.종료 :>>?
+		while(true) {System.out.print("1.저금 2.인출 3.금액확인 4.종료 : ");
+		int num = sc.nextInt();
+		if(num==1) {
+			System.out.print("저금할 금액을 입력하세요 : ");
+			int input = sc.nextInt();
+			bank.deposit(input);
+		}else if(num==2) {
+			System.out.print("인출할 금액을 입력하세요 : ");
+			int output = sc.nextInt();
+			if(bank.getMoney()<output) {
+				System.out.println("인출할 수 없습니다.");
+			}
+			bank.withdraw(output);
+		}else if(num==3) {
+			System.out.println("현재 잔액 : "+bank.getMoney());
+			
+		}else{
+			System.out.println("종료");
+			break;
+		}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

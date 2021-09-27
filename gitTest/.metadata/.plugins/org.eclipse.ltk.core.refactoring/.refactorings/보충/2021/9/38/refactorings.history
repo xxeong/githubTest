@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;보충.놋북&apos; to &apos;NoteBook&apos;&#x0D;&#x0A;- Original project: &apos;보충&apos;&#x0D;&#x0A;- Original element: &apos;보충.놋북&apos;&#x0D;&#x0A;- Renamed element: &apos;보충.NoteBook&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;놋북&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;보충{놋북.java[놋북" matchStrategy="1" name="NoteBook" qualified="false" references="true" similarDeclarations="false" stamp="1631700637990" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,8 @@
+package ex0916업캐스팅;
+
+public class Kkobuk {
+	public void pick() {
+		System.out.println("꼬부기인형");
+	}
+		
+}

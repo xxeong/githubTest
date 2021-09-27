@@ -1,0 +1,31 @@
+package 포켓몬게임;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//실행시킬 수 있는 공간!
+		
+		//꼬부기
+		Pokemon kkobuk = new Pokemon();// 생성자==메소드
+		//매개변수가 아무것도 없는 생성자 == 기본 생성자
+		//이름-꼬부기
+		//타입-물
+		//hp-100
+		//공격력-10
+		//스킬-물대포
+		System.out.println(kkobuk.name);
+		kkobuk.name="꼬부기";
+		kkobuk.type="물";
+		kkobuk.hp=100;
+		kkobuk.attack=10;
+		kkobuk.skill="물대포";
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

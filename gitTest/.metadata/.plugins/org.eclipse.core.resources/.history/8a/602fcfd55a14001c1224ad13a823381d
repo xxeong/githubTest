@@ -1,0 +1,23 @@
+package 포켓몬게임;
+
+public class Pokemon {
+	
+	
+	// 1. 필드(속성,변수)
+	// 이름, 타입, 속성, hp, 공격력, 스킬
+	String name;
+	String type;
+	int hp;
+	int attack;
+	String skill;
+	
+	
+	
+	// 2. 메소드(기능,행위)
+	
+	
+	
+	
+	
+	
+}

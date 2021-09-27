@@ -1,0 +1,28 @@
+package 자바페스티벌1차;
+
+import java.util.Scanner;
+
+public class ex5번별찍기 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("행 개수 : ");
+		int hang = sc.nextInt();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

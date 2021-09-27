@@ -1,0 +1,10 @@
+package 자바페스티벌1차;
+
+public class ex20번10진수입력받고2진수변환 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package ex0916업캐스팅;
+
+public class Gamja extends Snack{
+	@Override
+	public void open() {
+		System.out.println("감자칩을 뜯다.");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

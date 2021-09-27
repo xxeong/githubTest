@@ -1,0 +1,10 @@
+package 자바페스티벌1차;
+
+public class ex19번인덱스만큼별출력 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

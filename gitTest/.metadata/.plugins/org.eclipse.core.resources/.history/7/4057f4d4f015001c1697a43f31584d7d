@@ -1,0 +1,17 @@
+package 상속기초;
+
+public class Child extends Parent {
+	
+	//자식클래스(서브클래스)
+	
+	// 1. 새로운 기능 추가
+	public void makeSam() {
+		System.out.println("삼겹살을 굽는다.");
+	}
+	@Override
+	public void makeBibim() {
+System.out.println("육회추가");
+		super.makeBibim();
+	}
+	
+}

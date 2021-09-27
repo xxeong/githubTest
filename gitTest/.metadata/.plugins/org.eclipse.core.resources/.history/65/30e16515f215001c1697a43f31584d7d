@@ -1,0 +1,24 @@
+package 상속기초;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//실행하는 공간
+		//Parent 설계도를 기반으로 p라는 객체생성
+		Parent p = new Parent();
+		
+		
+		
+		//Child설계도를 기반으로 c라는 객체 생성
+		Child c = new Child();
+		
+		//부모가 가진 비빔밥 만드는 기능
+		p.makeBibim();
+		//자식이 가진 비빔밥 만드는 기능
+		c.makeBibim();
+		//자식이 가진 삼겹살 기능
+		c.makeSam();
+		
+	}
+
+}

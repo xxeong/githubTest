@@ -1,0 +1,31 @@
+package ex0914;
+
+import java.util.Scanner;
+
+public class ex은행예제 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		pigbank bank = new pigbank();
+		
+		//1.저금 2.인출 3.금액확인 4.종료 :>>?
+		System.out.print("1.저금 2.인출 3.금액확인 4.종료 : ");
+		int num = sc.nextInt();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

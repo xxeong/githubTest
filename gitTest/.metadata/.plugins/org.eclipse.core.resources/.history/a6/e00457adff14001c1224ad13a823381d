@@ -1,0 +1,40 @@
+package ex0914;
+
+public class pigbank {
+	
+	private int money;
+	
+	
+	
+	//돈을 넣는다
+	public void deposit(int inputmoney) {
+		money= money+inputmoney;
+	}
+	//돈을 인출한다
+	public void withdraw(int outmoney) {
+		money= money-outmoney;
+	}
+	//잔액을 보여준다
+	public int getMoney() {
+		return money;
+	}
+	
+	
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+

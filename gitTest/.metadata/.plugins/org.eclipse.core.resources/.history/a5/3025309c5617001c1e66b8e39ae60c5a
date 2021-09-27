@@ -1,0 +1,10 @@
+package 자바페스티벌풀어보기;
+
+public class ex3번홀수짝수100까지더하기 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

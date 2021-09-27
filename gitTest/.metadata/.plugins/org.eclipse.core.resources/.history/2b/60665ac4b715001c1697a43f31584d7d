@@ -1,0 +1,109 @@
+package 뮤직플레이어;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import javazoom.jl.player.MP3Player;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		// Player.jar폴더안에있는 MP3Player사용법
+		// 1.MP3Player 생성
+		MP3Player mp3 = new MP3Player();
+		// 2.노래재생
+		mp3.play("C:\\Users\\PC\\Desktop\\뮤직플레이어\\Butterfly.mp3");
+		// 3.노래멈추기
+		mp3.stop();
+
+		// Music 클래스 설계도를 기반으로 객체 생성
+//		Music m1 = new Music("Butterfly", "디지몬", "C:\\Users\\PC\\Desktop\\뮤직플레이어\\Butterfly.mp3");
+//		Music m2 = new Music("Peaches", "저스틴비버", "C:\\Users\\PC\\Desktop\\뮤직플레이어\\Peaches.mp3");
+//		Music m3 = new Music("Rollin", "브레이브걸스", "C:\\Users\\PC\\Desktop\\뮤직플레이어\\Rollin.mp3");
+//		Music m4 = new Music("Blossom", "버스커버스커", "C:\\Users\\PC\\Desktop\\뮤직플레이어\\Blossom.mp3");
+
+		// Music객체를 하나로 묶어서 관리할 수 있는 ArrayList list를 생성
+
+		ArrayList<Music> list = new ArrayList<Music>();
+
+		// 객체를 list에 하나씩 추가해주세요.
+		list.add(new Music("Butterfly", "디지몬", "C:\\Users\\PC\\Desktop\\뮤직플레이어\\Butterfly.mp3"));
+		list.add(new Music("Peaches", "저스틴비버", "C:\\Users\\PC\\Desktop\\뮤직플레이어\\Peaches.mp3"));
+		list.add(new Music("Rollin", "브레이브걸스", "C:\\Users\\PC\\Desktop\\뮤직플레이어\\Rollin.mp3"));
+		list.add(new Music("Blossom", "버스커버스커", "C:\\Users\\PC\\Desktop\\뮤직플레이어\\Blossom.mp3"));
+
+		// list에서 butterfly의 path값만 가지고와서 출력
+		// System.out.println(list.get(0).getPath());
+
+		while (true) {
+			System.out.print("[1]재생 [2]정지 [3]이전곡 [4]다음곡 [5]종료 >>");
+			// 1. 사용자로부터 숫자를 입력
+
+			// 2. 입력받은 숫자를 기준으로 총 5가지 로직
+			int input = sc.nextInt();
+			
+			if (input == 1) {
+				//System.out.println("노래를 고르시오");
+				//System.out.print("[0]Butterfly [1]Peaches [2]Rollin[3]Blossom >> ");
+				//int num = sc.nextInt();
+				//재생
+				//1. ArrayList 0번방에 있는 노래를 재생
+				
+				mp3.play(list.get(0).getPath());
+				//2. 가수 /노래제목
+				System.out.print(list.get(0).getSinger()+"/");
+				System.out.println(list.get(0).getTitle());
+				// ex)디지몬/Butterfly이 재생중입니다.
+				
+				
+			} else if (input == 2) {
+				//정지
+				//현재 재생중인 노래를 멈추기
+				mp3.stop();
+				System.out.println("노래를 멈춥니다.");
+			} else if (input == 3) {
+				//이전곡
+				int i = 0;
+				
+				if(i==-1) {
+					System.out.println("이전곡이 없습니다!");
+				}else {
+				
+				 
+				//1.현재 재생중인 노래에서 이전곡 재생 시키기!
+				mp3.play(list.get(i-1).getPath());
+				//2. 가수 /노래제목
+				System.out.print(list.get(i-1).getSinger()+"/");
+				System.out.println(list.get(i-1).getTitle());
+				//3. 이전곡이 없을 때는 이전곡이 없습니다! 출력
+				}
+			} else if (input == 4) {
+				//다음곡
+				
+				int i=0;
+				
+				if(i==3) {
+					System.out.println("다음곡이 없습니다!");
+				}else {
+					mp3.play(list.get(i+1).getPath());
+					System.out.print(list.get(i+1).getSinger()+"/");
+					System.out.println(list.get(i+1).getTitle());
+				}
+				//1.현재 재생중인 노래에서 다음곡 재생 시키기!
+				//2. 가수 /노래제목
+				//3. 다음곡이 없을 때는 다음곡이 없습니다! 출력
+				
+				
+			} else if (input == 5) {
+				System.out.println("종료합니다!");
+				break;
+			} else {
+				System.out.println("잘못된 숫자를 입력하셨습니다.");
+			}
+		}
+		// 3. 사용자가 5라는 숫자를 입력하기 전까지 계속 반복
+
+	}
+
+}

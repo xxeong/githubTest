@@ -1,0 +1,28 @@
+package 자바페스티벌1차;
+
+public class ex6번77출력 {
+
+	public static void main(String[] args) {
+		
+		
+		int sum = 0;
+		int result=0;
+		//s--d++
+		for(int s=77;s>0;s--) {
+			for(int d=1;d<78;d++) {
+				sum= s*d;
+				result+=sum;
+				break;
+			}
+			
+		}System.out.println(result);
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

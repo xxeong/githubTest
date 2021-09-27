@@ -1,0 +1,38 @@
+package 보충;
+
+public class NoteBook {
+	
+	//색상,용량,무게,크기
+	
+	String color;
+	double battery;
+	float weight;
+	int size;
+	boolean power;
+	int sound;
+	
+	// 전원을 킨다.
+	public void onOff() {
+		power = !power;
+	}
+	
+	// 소리를 킨다.
+	public void up(int sound) {
+		this.sound=sound;
+		// 동일한 변수명이 있었을 때 가까운 변수명을 잡아온다!
+		// 나 자신의 필드를 지칭하고 싶을때는! this사용!
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

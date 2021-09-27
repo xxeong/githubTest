@@ -1,0 +1,10 @@
+package 자바페스티벌풀어보기;
+
+public class ex5번삼각형출력 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

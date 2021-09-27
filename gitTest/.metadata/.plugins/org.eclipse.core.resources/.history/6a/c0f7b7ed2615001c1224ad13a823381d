@@ -1,0 +1,25 @@
+package 뮤직플레이어;
+
+import javazoom.jl.player.MP3Player;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		// Player.jar폴더안에있는 MP3Player사용법
+		// 1.MP3Player 생성
+		MP3Player mp3 = new MP3Player();
+		// 2.노래재생
+		mp3.play("C:\\Users\\PC\\Desktop\\뮤직플레이어\\Butterfly.mp3");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

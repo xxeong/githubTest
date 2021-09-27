@@ -1,0 +1,29 @@
+package ex0916업캐스팅;
+
+public class SnackMain {
+
+	public static void main(String[] args) {
+		
+		// 업캐스팅을 통해서 Snack 객체로
+		// 각각의 과자 봉지를 뜯어주세요!
+		Snack s = new Snack();
+		Banana banana = new Banana();
+		Gamja gamja = new Gamja();
+		Goguma goguma = new Goguma();
+		
+		
+		banana.open();
+		gamja.open();
+		goguma.open();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

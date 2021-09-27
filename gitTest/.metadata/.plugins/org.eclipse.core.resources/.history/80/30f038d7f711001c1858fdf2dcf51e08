@@ -1,0 +1,40 @@
+package 메소드기초;
+
+public class ex0510에가까운수구하기 {
+
+	public static void main(String[] args) {
+		//  조건 : 만약 두 숫자 모두 10과 차이가 같다면 0을 반환한다
+		int num1 = 0;
+		int num2 = 0;
+		int result = close10(num1, num2);
+		System.out.println("10에 가까운 수 : " + result);
+		
+	}
+
+	public static int close10(int num1, int num2) {
+		int result1 = Math.abs(num1-10);//abs절대값
+		int result2 = Math.abs(num2-10);
+		
+		if(result1>result2) {
+			return num2;
+			
+		}else if(result1<result2) {
+			return num1;
+		}else {
+			return 0;
+		}
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

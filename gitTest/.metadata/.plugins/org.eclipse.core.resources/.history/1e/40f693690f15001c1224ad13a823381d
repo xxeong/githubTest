@@ -1,0 +1,31 @@
+package ex0914ArrayList;
+
+import java.util.ArrayList;
+
+public class PhoneMain {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Phone> PhoneList = new ArrayList<Phone>();
+		
+		Phone lollipop = new Phone();
+		lollipop.setNumber("01037634118");
+		lollipop.setName("lollipop");
+		
+		Phone magic = new Phone();
+		magic.setNumber("01010101010");
+		magic.setName("magic");
+		//lollipop,magic객체생성완료
+		PhoneList.add(lollipop);
+		PhoneList.add(magic);
+		
+		//첫번째 원소 가져오기
+		String phoneName = PhoneList.get(0).getName();
+		PhoneList.get(0).call();
+		
+		
+		
+		
+	}
+
+}

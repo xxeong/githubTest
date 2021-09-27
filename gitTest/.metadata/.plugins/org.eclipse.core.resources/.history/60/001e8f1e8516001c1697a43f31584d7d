@@ -1,0 +1,28 @@
+package ex0916업캐스팅;
+
+public class Pika {
+	
+	public static void pick() {
+		System.out.println("피카츄인형");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

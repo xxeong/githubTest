@@ -1,0 +1,29 @@
+package ex0913객체지향;
+
+public class Person2 {
+	
+//	String blood = "o형";
+//	int tall = 183;
+//	int age = 27;
+	
+	
+	
+	public Person2(String blood, int tall, int age) {
+		super();//상위클래스를 가리켜라
+		this.blood = blood;
+		this.tall = tall;
+		this.age = age;
+	}
+
+	public void badminton() {
+		System.out.println("배드민턴을 치다");
+	}
+	
+	public void hiking() {
+		System.out.println("등산을 하다");
+	}
+	public void eat() {
+		System.out.println("밥을 먹다");
+	}
+	
+}

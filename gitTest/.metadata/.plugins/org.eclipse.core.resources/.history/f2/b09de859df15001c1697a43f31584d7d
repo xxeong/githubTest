@@ -1,0 +1,33 @@
+package 자바페스티벌1차;
+
+import java.util.Scanner;
+
+public class ex19번단수입력후어느수까지출력 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("단수 입력 : ");
+		int dan = sc.nextInt();
+		System.out.println("어느 수 까지 출력 : ");
+		int num = sc.nextInt();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ex0913객체지향.Person&apos; to &apos;Person2&apos;&#x0D;&#x0A;- Original project: &apos;ex0913객체지향&apos;&#x0D;&#x0A;- Original element: &apos;ex0913객체지향.Person&apos;&#x0D;&#x0A;- Renamed element: &apos;ex0913객체지향.Person2&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Person&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;ex0913객체지향{Person.java[Person" matchStrategy="1" name="Person2" qualified="false" references="true" similarDeclarations="false" stamp="1631499595884" textual="false" version="1.0"/>
+</session>

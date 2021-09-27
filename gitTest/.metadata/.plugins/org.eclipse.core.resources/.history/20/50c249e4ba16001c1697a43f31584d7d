@@ -1,0 +1,18 @@
+package 추상클래스예제;
+
+public class MainPart {
+
+	public static void main(String[] args) {
+		
+		PartTimeEmployee p = new PartTimeEmployee("SMHRD001", "김O독", 10, 10)
+		
+		System.out.println(p.print());
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,29 @@
+package 보충;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		NoteBook note = new NoteBook("빨강", 100, 1.5f, 16, false, 0);
+		// 생정자중에 매개변수를 아무것도 받지 않는 생성자 -->() 기본생성자
+		// 기본생성자는 생략가능! 내가 나만의 생성자를 하나 만들었따면!
+		// 기본생성자는 덮어씌워진다!
+		
+		System.out.println(note);//주소값이 들어있는 레퍼런스 변수
+		// 배터리 용량을 출력
+		System.out.println(note.getBattery());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

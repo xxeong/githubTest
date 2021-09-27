@@ -1,0 +1,10 @@
+package 메소드기초;
+
+public class ex08객체만들기 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

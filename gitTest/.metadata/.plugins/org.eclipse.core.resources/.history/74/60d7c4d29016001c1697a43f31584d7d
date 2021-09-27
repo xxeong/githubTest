@@ -1,0 +1,33 @@
+package ex0916업캐스팅;
+
+public class Machine {
+	
+	//인형을 뽑는 기능(어떤 인형을 뽑을건지 설정)
+	
+	//매개변수 -> Pika 객체
+	//로직 -> Pika 객체를 활용해서 pick 이라는 메소드 사용
+//	public void run(Pika pika) {
+//		pika.pick();
+//	}
+//	public void run(Pairi pairi) {
+//		pairi.pick();
+//	}
+//	public void run(Kkobuk kkobuk) {
+//		kkobuk.pick();
+//	}
+	//오버라이딩 
+	public void run(Doll doll) {
+		doll.pick();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

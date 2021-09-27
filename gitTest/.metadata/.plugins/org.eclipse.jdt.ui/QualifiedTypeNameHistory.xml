@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="ex0831과제"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable"/>
+    <fullyQualifiedTypeName name="com.sun.management.OperatingSystemMXBean"/>
+    <fullyQualifiedTypeName name="java.math.MathContext"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="sun.security.krb5.SCDynamicStoreConfig"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="객체기초.Phone"/>
+    <fullyQualifiedTypeName name="com.sun.tools.sjavac.comp.dependencies.PublicApiCollector"/>
+    <fullyQualifiedTypeName name="java.lang.StrictMath"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.ui.action.ShowAction"/>
+    <fullyQualifiedTypeName name="ex0913객체지향.Student"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="포켓몬게임.Pokemon"/>
+    <fullyQualifiedTypeName name="ex0914.pigbank"/>
+    <fullyQualifiedTypeName name="javazoom.jl.player.MP3Player"/>
+    <fullyQualifiedTypeName name="뮤직플레이어.Music"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

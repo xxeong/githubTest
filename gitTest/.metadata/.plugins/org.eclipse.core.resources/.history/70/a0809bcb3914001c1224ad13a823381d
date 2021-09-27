@@ -1,0 +1,24 @@
+package ex0913°´Ã¼ÁöÇâ;
+
+public class PersonMain2 {
+
+	public static void main(String[] args) {
+		
+		person2 me = new person2();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

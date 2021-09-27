@@ -1,0 +1,36 @@
+package ex0914ArrayList;
+
+import java.util.ArrayList;
+
+public class PhoneMain {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Phone> PhoneList = new ArrayList<Phone>();
+		
+		Phone lollipop = new Phone();
+		lollipop.setNumber("01012345678");
+		lollipop.setName("lollipop");
+		
+		Phone magic = new Phone();
+		magic.setNumber("01010101010");
+		magic.setName("magic");
+		//lollipop,magic객체생성완료
+		PhoneList.add(lollipop);
+		PhoneList.add(magic);
+		
+		//첫번째 원소 가져오기
+		String phoneName = PhoneList.get(0).getName();
+		PhoneList.get(0).call();
+		
+		//휴대폰을 객체로 만들어서 arrayList의 2번째자리에 넣고,이름을 출력
+		Phone galaxy = new Phone();
+		galaxy.setName("galaxy");
+		galaxy.setNumber("01037634118");
+		PhoneList.add(1, galaxy);
+		PhoneList.clear();
+		System.out.println(galaxy.getName());
+		
+	}
+
+}

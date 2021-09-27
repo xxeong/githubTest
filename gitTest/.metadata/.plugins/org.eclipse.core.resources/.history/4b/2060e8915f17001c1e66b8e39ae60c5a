@@ -1,0 +1,17 @@
+package 자바페스티벌풀어보기;
+
+public class ex6번77_77 {
+
+	public static void main(String[] args) {
+		int down = 77;
+		int up = 1;
+		int result = 0;
+		for(down = 77;down>=1;down--) {
+			for(up = 1;up<=78;up++) {
+				result += down*up;
+				break;
+			}
+		}System.out.println(result);
+	}
+
+}

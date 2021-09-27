@@ -3,7 +3,7 @@ package SMHRD;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Çï·Î ¿ùµå");
+		System.out.println("Çì¿¤·Î ¿ö¾óµå");
 	}
 
 }
